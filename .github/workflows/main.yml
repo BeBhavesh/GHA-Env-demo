@@ -13,4 +13,5 @@ jobs:
       - name: Run script
         run: |
           ls
-          ./GHA-Env-demo/env-demo.sh
+          ls env-demo
+          ./env-demo/env-demo.sh
