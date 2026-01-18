@@ -13,5 +13,4 @@ jobs:
       - name: Run script
         run: |
           ls
-          ls env-demo
-          ./env-demo/env-demo.sh
+          ./env-demo.sh
