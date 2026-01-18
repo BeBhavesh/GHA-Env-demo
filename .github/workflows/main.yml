@@ -1,0 +1,17 @@
+name: Demo
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run script
+        run: |
+          ls
+          ls GHA-Env-demo
+          ./GHA-Env-demo/env-demo.sh
